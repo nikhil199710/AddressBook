@@ -55,10 +55,10 @@ namespace Redo_AddressBook
             addressBook.DisplayContact();
 
             //UC4
-            //Console.WriteLine("Enter First Name which u have to delete:");
-            //string DeleteContact= Console.ReadLine();
-            //addressBook.deleteContact(DeleteContact);
-            //addressBook.DisplayContact();
+            Console.WriteLine("Enter First Name which u have to delete:");
+            string DeleteContact = Console.ReadLine();
+            addressBook.deleteContact(DeleteContact);
+            addressBook.DisplayContact();
 
         }
     }
