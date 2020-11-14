@@ -32,11 +32,5 @@ namespace Redo_AddressBook
             this.phoneNo = phoneNo;
             this.eMail = eMail;
         }
-
-
-
-
-
-
     }
 }

@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace Redo_AddressBook
 {
-    class AddressBook
+    public class AddressBook
     {
         public List<Contacts> addressBookList = new List<Contacts>();
 
