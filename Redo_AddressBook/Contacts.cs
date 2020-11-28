@@ -12,6 +12,7 @@ namespace Redo_AddressBook
 {
     public class Contacts
     {
+        //UC1
         public string firstName;
         public string lastName;
         public string address;
@@ -32,11 +33,5 @@ namespace Redo_AddressBook
             this.phoneNo = phoneNo;
             this.eMail = eMail;
         }
-
-
-
-
-
-
     }
 }
