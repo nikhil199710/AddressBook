@@ -65,21 +65,6 @@ namespace Redo_AddressBook
             }
         }
 
-        /// <summary>
-        /// UC4
-        /// </summary>
-        /// <param name="firstName"></param>
-        public void deleteContact(string firstName)
-        {
-            foreach (Contacts cont in addressBookList)
-            {
-                if (cont.firstName == firstName)
-                {
-                    addressBookList.Remove(cont);
-                    Console.WriteLine("Contact Removed.");
-                }
-            }
-        }
 
         public void DisplayContact()
         {
