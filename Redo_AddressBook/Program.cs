@@ -12,7 +12,6 @@ namespace Redo_AddressBook
     {
         static void Main(string[] args)
         {
-            bool flag = true;
             Console.WriteLine("Welcome to Address Book!");
             //UC1
             AddressBook addressBook = new AddressBook();
