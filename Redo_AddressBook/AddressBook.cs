@@ -16,22 +16,5 @@ namespace Redo_AddressBook
     {
         public List<Contacts> addressBookList = new List<Contacts>();
 
-        /// <summary>
-        /// UC2
-        /// </summary>
-        /// <param name="firstName"></param>
-        /// <param name="lastName"></param>
-        /// <param name="address"></param>
-        /// <param name="city"></param>
-        /// <param name="state"></param>
-        /// <param name="zip"></param>
-        /// <param name="phoneNo"></param>
-        /// <param name="eMail"></param>
-        public void AddContact(string firstName, string lastName, string address, string city, string state, int zip, long phoneNo, string eMail)
-        {
-            Contacts contacts = new Contacts(firstName,lastName,address,city,state,zip,phoneNo,eMail);
-            addressBookList.Add(contacts);
-        }
-
     }
 }
