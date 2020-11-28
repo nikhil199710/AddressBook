@@ -32,6 +32,14 @@ namespace Redo_AddressBook
             Contacts contacts = new Contacts(firstName,lastName,address,city,state,zip,phoneNo,eMail);
             addressBookList.Add(contacts);
         }
+        
+        public void DisplayContact()
+        {
+            foreach(Contacts cont in addressBookList)
+            {
+                Console.WriteLine(cont.firstName+" "+cont.lastName + " " +cont.address + " " +cont.city + " " +cont.state + " " +cont.zip + " " +cont.phoneNo + " " +cont.eMail);
+            }
+        }
 
     }
 }
