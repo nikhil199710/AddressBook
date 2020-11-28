@@ -48,17 +48,6 @@ namespace Redo_AddressBook
             }
             addressBook.DisplayContact();
 
-            //UC3
-            //Console.WriteLine("Enter First Name which u have to edit:");
-            //string editFirstName = Console.ReadLine();
-            //addressBook.EditContact(editFirstName);
-            //addressBook.DisplayContact();
-
-            //UC4
-            //Console.WriteLine("Enter First Name which u have to delete:");
-            //string DeleteContact= Console.ReadLine();
-            //addressBook.deleteContact(DeleteContact);
-            //addressBook.DisplayContact();
 
         }
     }
